@@ -164,7 +164,7 @@ section{
         /* section 3 */
 
 .hero-3{
-    background-color: rgb(109, 216, 85);
+    /* background-color: rgb(109, 216, 85); */
     height: 575px;
     width: 100%;
     margin-top: 10px;
@@ -194,14 +194,6 @@ section{
     font-weight: 400;
     margin-top: 10px;   
 }
-
-
-
-
-
-
-
-
 
   /* section 3 buttons  */
 .btn-box-hero3{
@@ -234,11 +226,163 @@ section{
 }
          /* section 3 buttons end */
 
-
+         /* section 4 */
 .hero-4{
-    background-color: rgb(243, 64, 198);
+    background-color: rgb(255, 255, 255);
     height: 575px;
     width: 100%;
-    margin-top: 10px;
+    margin: 10px;
+    display: flex;
+    gap: 10px;
 
+}
+.macbook{
+    width: 50%;
+    height: 100%;
+    background-image: url(./images/macbook__large_2x.jpg);
+    background-position: center;
+    background-size: 190% 110%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.ipad{
+    width: 50%;
+    height: 100%;
+    background-image: url(./images/ipad_airlarge_2x.jpg);
+    background-position: center;
+    background-size: 190% 110%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.ipad-logo{
+    height:60px ;
+    width:200px ;
+    margin-top: 40px;
+}
+
+.hero4-h{
+    font-size: 42px;;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0%;
+}
+.hero4-p1{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 2px;   
+}
+.hero4-p2{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 400;
+    margin-top:2px ;
+}
+
+  /* section 4 Macbook buttons  */
+.btn-box-hero4{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn-box-hero4 > button{
+    width: 110px;
+    height: 40px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.btn-box-hero4 > .btn1 {
+  color: white;
+  background-color:rgb(0, 113, 227);
+  border: 1px solid rgb(0, 113, 227);
+}
+.btn-box-hero4 > .btn2 {
+   color:rgb(0, 113, 227);
+   background-color: rgb(255, 255, 255);
+   border: 1px solid rgb(0, 113, 227);
+   width: 60px;
+}
+.btn2:hover {
+    background-color: rgb(0, 113, 227);
+    color: white;
+}
+         /* section 4 Macbook buttons end */
+
+         /* section 4 iPad buttons  */
+.btn-box-hero4{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn-box2-hero4 > button{
+    width: 110px;
+    height: 40px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.btn-box2-hero4 > .btn1 {
+  color: white;
+  background-color:rgb(0, 113, 227);
+  border: 1px solid rgb(0, 113, 227);
+}
+.btn-box2-hero4 > .btn2 {
+   color:rgb(0, 113, 227);
+   background-color: rgb(255, 255, 255);
+   border: 1px solid rgb(0, 113, 227);
+   width: 60px;
+}
+.btn2:hover {
+    background-color: rgb(0, 113, 227);
+    color: white;
+}
+         /* section 4 iPad buttons end */
+  
+         /* section 5 */
+.hero-5{
+    background-color: rgb(255, 255, 255);
+    height: 575px;
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+
+}
+.card{
+    width: 50%;
+    height: 100%;
+    background-image: url(./images/apple_card_airpods___large_2x.jpg);
+    background-position: center;
+    background-size: 190% 110%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.trade{
+    width: 50%;
+    height: 100%;
+    background-image: url(./images/iphone_trade_large_2x.jpg);
+    background-position: center;
+    background-size: 190% 110%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
