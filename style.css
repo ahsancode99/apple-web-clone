@@ -6,20 +6,25 @@ body{
 nav{
   width: 99%;
   display: flex;
-  justify-content: center;
   background-color: rgba(30, 30, 30, 0.8); 
-
+  justify-content: center;
+  
 }
 .ul-1{
     display: flex;
     list-style: none;
     gap: 35px;
 }
-.li-1{
+.li-1 ,.li-2 ,.li-3 ,.li-4{
     display: inline;
     color: white;
     font-size: 14px;
 }
+.li-4{
+    display: none;
+}
+
+
 header{
     position: fixed;
     width: 100%;
@@ -614,4 +619,43 @@ h4{
     border-top: 1px solid #d2d2d7;
 }
 
+@media screen and (max-width:1024px){
+    .ul-1{
+        gap: 30px;
+    }
+}
+@media screen and (max-width:768px){
+      nav{
+        width: 768px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .ul-1{
+        gap: 25px;
+        margin-right: 10px;
+    }
+    nav > .ul-1 > .li-3{
+        width: 600px;
+        display: flex;
+        justify-content: flex-start;
+        
+        
+    }
+    .li-1{
+       display: none;
+    }
+    .li-4{
+        display: block;
+    }
+    .li-2 , .li-3 ,.li-4{
+     font-size: 19px;
+     
+}
+     /* nav end */
+
+     
+    
+
+}
 
